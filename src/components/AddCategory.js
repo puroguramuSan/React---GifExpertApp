@@ -33,7 +33,7 @@ const AddCategory = ({ setCategories }) => {
     )
 }
 
-AddCategory.defaultProps = {
+AddCategory.propTypes = {
     setCategories: PropTypes.func.isRequired
 }
 
