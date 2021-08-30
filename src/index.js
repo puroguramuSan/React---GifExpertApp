@@ -5,7 +5,9 @@ import './index.css';
 
 import GifExpertApp from './GifExpertApp';
 
+const defaultCategories = ["One Punch Man"];
+
 ReactDOM.render(
-    <GifExpertApp />,
+    <GifExpertApp defaultCategories = { defaultCategories }/>,
   document.getElementById('root')
 );
